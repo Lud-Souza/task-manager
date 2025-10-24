@@ -1,0 +1,88 @@
+/* Centraliza todo o conteúdo na tela */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Container principal */
+.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Formulário de criação de tarefas */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.task-form input,
+.task-form textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #218838;
+}
+
+/* Lista de tarefas */
+.task-list {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Botões dentro das tarefas */
+.task-item button {
+  margin: 5px;
+}
+
+/* Botão sair no rodapé */
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #b02a37;
+}
