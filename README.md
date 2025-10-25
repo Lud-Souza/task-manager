@@ -8,7 +8,7 @@ Um sistema simples de gerenciamento de tarefas com frontend em React e backend e
 
 - **Frontend:** React
 - **Backend:** Node.js + Express
-- **Banco de dados:** PostgreSQL (ou outro que você estiver usando)
+- **Banco de dados:** PostgreSQL 
 - **Autenticação:** JWT
 
 ---
